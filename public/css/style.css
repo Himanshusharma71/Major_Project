@@ -1,0 +1,207 @@
+body{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color:#222222 !important ;
+    font-weight: 500 !important;
+}
+/* footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links, .f-info-socials,.f-info-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 0.7rem;
+}
+.f-info{
+    text-align: center;
+    height: 7rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:space-evenly;
+    gap: 0.2rem;
+}
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+.card-body{
+    padding: 0 !important;
+
+}
+.card-text p{
+    font-weight: 500 !important;
+}
+.listing-links{
+    text-decoration: none;
+}
+
+/* card effects */
+
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+    color: white !important;
+}
+
+/* show page style  */
+
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+.btns .edit-btn{
+    background-color: red;
+}
+.btns .edit-btn:hover{
+    background-color: green;
+}
+.btns del:hover{
+    background-color: red;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* styling for map  */
+
+#map {
+     height: 400px;
+     width: 100vh;
+    }
+
+
+    /* search bar css  */
+    
+    .search-bar {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 0.5rem;
+        max-width: 70rem;
+        margin-left: 22rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .search-field {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+    
+    .search-field label {
+        font-size: 12px;
+        color: #555;
+        margin-bottom: 1px;
+    }
+    
+    .search-field input {
+        border: none;
+        outline: none;
+        font-size: 14px;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .search-field input[type="date"] {
+        color: #888;
+    }
+    
+    .search-button {
+        background-color: #ff5a5f;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .search-button img {
+        width: 20px;
+        height: 20px;
+        filter: invert(1);
+    }
+    
+    @media (max-width: 768px) {
+        .search-bar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .search-field {
+            margin-right: 0;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+    
+        .search-button {
+            align-self: center;
+        }
+    }
+
+ 
+    /* book button css  */
+    /* From Uiverse.io by mobinkakei */ 
+
+.book-btn{
+    width: 12rem; 
+    margin-left: 35rem; 
+    background-color: red; 
+    color: white;
+    background-color: red !important;
+}
+.book-btn:hover{
+    background-color: green !important;
+}

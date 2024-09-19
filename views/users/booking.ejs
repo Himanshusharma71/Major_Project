@@ -1,0 +1,59 @@
+<% layout("/layouts/boilerplate")%>
+
+<div class="booking-container">
+    <h1>Book Now</h1>
+    <p>"Experience Tradition with a Modern Touch at SmartBhartiya - Your Home Away from Home!</p>
+    
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="full-name">Your full name ?</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Your email address ?</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+            <label for="people">How many people ?</label>
+            <select id="people" name="people">
+                <option value="1">1 People</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="id">Select your ID</label>
+            <select id="id" name="people">
+                <option value="1">aadhar card</option>
+                <option value="2">Pen card</option>
+                <option value="3">Driving licence</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="time">What time ?</label>
+            <input type="text" id="time" name="time" placeholder="Enter time">
+        </div>
+        <div class="form-group" style="display: flex; gap: 10px;">
+            <label for="date">check in date ?</label>
+            <input type="date" id="date" name="date">
+            <label for="date">check out date ?</label>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Your phone number ?</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+
+        <button type="submit" class="submit-btn">SUBMIT</button>
+    </form>
+</div>
+<script>
+     function redirectToBooking() {
+        window.location.href = '/booking.ejs';
+    }
+</script>

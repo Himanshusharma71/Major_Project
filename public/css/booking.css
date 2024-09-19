@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.booking-container {
+    background-color: #121212;
+    color: #f9f9f9;
+    border: 1px solid #d4af37;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+h1 {
+    font-family: 'Cursive', sans-serif;
+    color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #d4af37;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgb(220, 166, 166);
+    font-size: 1rem;
+}
+
+input[type="date"] {
+    color: #f9f9f9;
+}
+
+button.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fcd307;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #121212;
+}
+
+button.submit-btn:hover {
+    background-color: #e0b106;
+}
